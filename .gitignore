@@ -1,0 +1,42 @@
+# Binaries and build output
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.out
+
+# Test binary and coverage
+*.test
+*.bench
+coverage.out
+coverage.html
+
+# Air hot-reload build artefacts
+tmp/
+
+# Dependency vendoring
+vendor/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Air log files
+build-errors.log
+
+# templ generated files are committed, but cache can be ignored
+# (uncomment if you prefer not to commit generated files)
+# *_templ.go
