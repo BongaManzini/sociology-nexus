@@ -1,77 +1,67 @@
-# Sociology Nexus: Digital Sociological Epistemology & Theory Engine
-### An Interactive Educational Informatics & Sociological Theory Research Platform
+# 📚 Sociology Nexus: Open Decolonial Learning Hub
+### A Fast, Low-Data Study Portal Built with Go and HTMX for UNISA Distance Students
 
-> **Repository**: [https://github.com/BongaManzini/sociology-nexus](https://github.com/BongaManzini/sociology-nexus)  
-> **Classification**: Academic Research & Educational Informatics Site  
-> **Lead Researcher & Engineer**: Bonga Manzini (BSc Informatics, UNISA)  
-
----
-
-## 🔬 Research Dossier: The 11-Point Framework
-
-### 1. Who (Target Stakeholders & Audience)
-- **Primary Audience:** Undergraduate and postgraduate sociology scholars, distance-learning students at the University of South Africa (UNISA), social science researchers, and academic educators.
-- **Institutional Beneficiaries:** South African Sociological Association (SASA), African Studies departments across global universities, and open-access educational initiatives across the Global South.
-
-### 2. Where (Geographical & Intellectual Scope)
-- **Geographical Scope:** South Africa, the African continent, and comparative global sociological epistemologies.
-- **Academic Context:** Bridging Eurocentric classical sociology (Marx, Weber, Durkheim) with decolonial African sociological scholarship (Archie Mafeje, Bernard Magubane, Frantz Fanon, Fatima Meer, Kwesi Prah).
-
-### 3. Why (Systemic Motivation & Urgency)
-- **The Decolonial Pedagogy Divide:** Higher education curricula in the Global South often present abstract European sociological frameworks as universal truths without demonstrating how they map to post-colonial African institutional dynamics (racial capitalism, dual economies, migrant labour systems, and traditional chieftaincies).
-- **The Digital Divide at Distance Universities:** UNISA serves over 400,000 distance-learning students who frequently lack physical access to campus libraries, tutors, and peer study halls. High-speed, low-bandwidth, server-rendered academic platforms provide an essential lifeline.
-
-### 4. How (Methodological & Technical Approach)
-- **Methodology:** Structural Comparative Epistemology & Concept Mapping.
-  1. *Tripartite Theoretical Decomposition:* Categorizes social phenomena across Structural Functionalism, Conflict Theory, and Symbolic Interactionism, cross-cut by Post-Colonial and Decolonial critique.
-  2. *Low-Bandwidth Server-Side Rendering:* Engineered using Go (Golang) + `chi` router + `templ` compile-time type-safe templates + `htmx` for dynamic partial updates without requiring heavy client-side JavaScript execution.
-- **Technical Efficiency:** Zero client-side hydration penalty; 15ms time-to-first-byte (TTFB) even on low-cost Android mobile devices.
-
-### 5. When (Theoretical Chronology & Milestones)
-- **1840s–1920s:** Classical Foundation (Auguste Comte, Karl Marx, Émile Durkheim, Max Weber).
-- **1930s–1970s:** The Frankfurt School, Structural Functionalism (Talcott Parsons), and Symbolic Interactionism (Erving Goffman).
-- **1950s–1980s:** Anti-Apartheid and African Marxist Sociology (Bernard Magubane's *"The Political Economy of Race and Class in South Africa"*, Archie Mafeje's critique of tribalism).
-- **1994–Present:** Post-apartheid social stratification, spatial inequality, and the #FeesMustFall decolonial curriculum transformation.
-
-### 6. The Problem Statement
-- **Academic Attrition in Distance Education:** First- and second-year sociology students at distance universities suffer from high dropout and failure rates due to textbook density, academic jargon, and lack of interactive feedback loops.
-- **Lack of Modern Lightweight Tooling:** Most university learning management systems (e.g. Moodle, Blackboard) are clunky, bandwidth-heavy, and poorly optimized for mobile screens. Sociology Nexus provides an ultra-lean, responsive alternative.
-
-### 7. The Data Sourced
-1. **South African Sociological Association (SASA)**: Peer-reviewed journal publications and annual conference proceedings (*South African Review of Sociology*).
-2. **Classic Sociological Treatises**: Primary texts from Marx (*Capital*), Weber (*Economy and Society*), Durkheim (*The Division of Labour in Society*), and Fanon (*The Wretched of the Earth*).
-3. **Statistics South Africa (Stats SA)**: Income and Expenditure Surveys, Living Conditions Survey, and Gini Coefficient inequality metrics.
-
-### 8. Why I Chose This Data
-- **Scholarly Rigor:** Adheres to established peer-reviewed academic literature recognized by the Council on Higher Education (CHE).
-- **Local Empirical Grounding:** Combining abstract European sociological theory with actual Stats SA inequality data grounds sociological concepts in tangible South African economic realities.
-
-### 9. How I Worked On The Data
-- Distilled complex multi-volume sociological treatises into structured conceptual nodes (Core Thesis, Mechanism, Critique, African Application).
-- Designed interactive interactive matrices that allow students to contrast how a Structural Functionalist vs a Conflict Theorist vs a Decolonial Theorist would interpret a single phenomenon (e.g. South Africa's high Gini coefficient or the informal Spaza economy).
-
-### 10. What I Plan To Achieve From It
-- **Democratic Academic Access:** Create an open-access, zero-subscription digital companion for any African student studying social sciences.
-- **Educational Empowerment:** Elevate student pass rates in distance-education sociology courses through active concept recall and dynamic partial-page querying.
-- **Informatics Cross-Pollination:** Demonstrate how systems software engineering (Go, HTMX) can solve educational humanities challenges.
-
-### 11. Market Understanding & Higher-Ed Landscape
-- **Target Demographic:** 400,000+ UNISA students and 1.2M+ public university students across South Africa.
-- **Infrastructure Reality:** The vast majority of distance learners access study materials using mobile data bundles; heavy SPAs that download 5MB of JavaScript fail on slow connections. Go + HTMX delivers the ideal high-performance, bandwidth-friendly solution.
+> **Codebase**: [https://github.com/BongaManzini/sociology-nexus](https://github.com/BongaManzini/sociology-nexus)  
+> **Built by**: Bonga Manzini (BSc Informatics student at UNISA)
 
 ---
 
-## 🛠️ Tech Stack & Local Execution
+## 🔬 About This Project
 
-| Layer | Technology | Rationale |
-| :--- | :--- | :--- |
-| **Language** | [Go 1.23](https://go.dev/) | High-concurrency compiled backend with minimal memory footprint |
-| **Router** | [chi v5](https://github.com/go-chi/chi) | Idiomatic, zero-allocation HTTP routing |
-| **Templating** | [templ v0.3](https://templ.guide/) | Compile-time type-safe HTML templates compiled to Go bytecode |
-| **Interactivity** | [htmx](https://htmx.org/) | Server-driven partial DOM swaps with zero client JS runtime overhead |
+As a UNISA distance-learning student, I know how hard it can be to study when course websites are slow, heavy with JavaScript, and burn through expensive mobile data.
 
-```bash
-# Run server locally
-go run cmd/server/main.go
-```
-Visit `http://localhost:8080` to launch the interactive platform.
+I built Sociology Nexus using Go and HTMX so pages load instantly and use almost zero mobile data. It brings together African sociological thinkers (like Bernard Magubane, Archie Mafeje, and Frantz Fanon) alongside study notes and discussion questions for distance learners.
+
+---
+
+## The 11 Questions: The Facts Behind The Project
+
+### 1. Who is this for?
+- UNISA distance students, sociology learners, and anyone studying African social systems.
+
+### 2. Where does this focus on?
+- South Africa and across Africa, designed especially for students studying on mobile phones in townships and rural areas with weak internet.
+
+### 3. Why did I build it?
+- Most university portals are heavy and waste expensive mobile data. I wanted to prove that educational websites can be lightning-fast and data-friendly.
+
+### 4. How does the site work?
+- Server-rendered HTML with Go and HTMX. Zero heavy JavaScript bundles, loading pages in under 50 milliseconds.
+
+### 5. When was it built?
+- Built for UNISA semester modules and ongoing student revision.
+
+### 6. The Problem I Noticed
+- South African mobile data is expensive, and students living in areas with weak 3G/4G connections get locked out of heavy web portals.
+
+### 7. Where I Got The Data
+- Academic reading lists, open-access sociology journals, and UNISA module study guides.
+
+### 8. Why I Trusted This Source
+- Focuses on influential African sociological perspectives that are often hard to find in standard Western textbooks.
+
+### 9. How I Built It
+- I designed a clean Go backend with SQLite, wrote server-side templates with HTMX for smooth tab switching, and optimized every asset for tiny data downloads.
+
+### 10. What I Hope To Achieve
+- Provide distance learners with a reliable, data-saving study platform that never lags or crashes on budget phones.
+
+### 11. Why This Matters In Real Life
+- Accessibility in Africa means building for low bandwidth and cheap phones, not just gigabit fiber and high-end laptops.
+
+---
+
+## 🛠️ Tech Stack
+- **Go (Golang)**: Fast, compiled backend
+- **HTMX**: Smooth client-side updates with zero bloated JavaScript
+- **SQLite**: Lightweight embedded database
+
+---
+
+## 🤝 Contributing & Pull Requests
+
+Have reading notes, study questions, or performance improvements to share?
+1. Fork this repository
+2. Create your branch (`git checkout -b feature/reading-notes`)
+3. Add comments explaining your changes
+4. Submit a Pull Request!
