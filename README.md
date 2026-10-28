@@ -1,12 +1,12 @@
-# 📚 Sociology Nexus: Open Decolonial Learning Hub
+# Sociology Nexus: Open Decolonial Learning Hub
 ### A Fast, Low-Data Study Portal Built with Go and HTMX for UNISA Distance Students
 
-> **Codebase**: [https://github.com/BongaManzini/sociology-nexus](https://github.com/BongaManzini/sociology-nexus)  
+> **Codebase**: [https://github.com/BongaManzini/sociology-nexus](https://github.com/BongaManzini/sociology-nexus) 
 > **Built by**: Bonga Manzini (BSc Informatics student at UNISA)
 
 ---
 
-## 🔬 About This Project
+## About This Project
 
 As a UNISA distance-learning student, I know how hard it can be to study when course websites are slow, heavy with JavaScript, and burn through expensive mobile data.
 
@@ -51,14 +51,14 @@ I built Sociology Nexus using Go and HTMX so pages load instantly and use almost
 
 ---
 
-## 🛠️ Tech Stack
+## ️ Tech Stack
 - **Go (Golang)**: Fast, compiled backend
 - **HTMX**: Smooth client-side updates with zero bloated JavaScript
 - **SQLite**: Lightweight embedded database
 
 ---
 
-## 🤝 Contributing & Pull Requests
+## Contributing & Pull Requests
 
 Have reading notes, study questions, or performance improvements to share?
 1. Fork this repository
